@@ -32,8 +32,8 @@
 .order-block {
     border-radius: 30px;
     padding: 40px 20px;
-    max-width: 335px;
-    min-height: 552px;
+    width: 335px;
+    height: 552px;
     display: flex;
     flex-direction: column;
     background-color: #fbfbfb;
@@ -65,17 +65,19 @@
     height: 48px;
     margin-bottom: 16px;
     outline: transparent;
+    transition: border-color 250ms ease-in-out;
 }
 
-.form-input:hover {
+.form-input:hover,
+.form-comment:hover {
     border-color: #7a3145;
 }
 
-.form-input:valid {
+.form-input:not(:placeholder-shown):valid {
     border-color: #3cbc81;
 }
 
-.form-input:invalid {
+.form-input:not(:placeholder-shown):invalid {
     border-color: #e74a3b;
 }
 
@@ -88,6 +90,7 @@
     resize: none;
     outline: transparent;
     margin-bottom: 20px;
+    transition: border-color 250ms ease-in-out;
 }
 
 .form-comment::placeholder,
@@ -101,7 +104,7 @@
 .form-btn {
     border-radius: 30px;
     padding: 16px 129px;
-    min-width: 295px;
+    width: 295px;
     height: 52px;
     background-color: #7a3145;
     border: none;
@@ -111,6 +114,15 @@
     letter-spacing: -0.01em;
     text-transform: uppercase;
     color: #fbfbfb;
+    transition: background-color 250ms ease-in-out,
+    border 250ms ease-in-out,
+    color 250ms ease-in-out;
+}
+
+.form-btn:active {
+    background-color: #fbfbfb;
+    border: 1px solid #7a3145;
+    color: #7a3145;
 }
 
 .juice-block {
@@ -176,10 +188,11 @@
         font-size: 16px;
         line-height: 1.25;
         margin-bottom: 52px;
+        width: 640px;
     }
 
     .block-container {
-        margin: 0 64px;
+        margin: 0 32px;
     }
 
     .order-block {
@@ -264,11 +277,16 @@
     }
 
     .form-btn {
-        max-width: 428px;
+        width: 428px;
+    }
+
+    .form-btn:hover {
+        background-color: #d4bfc4;
+        border: 1px solid #d4bfc4;
+        color: #7a3145;
     }
 
     .juice-img {
         margin-bottom: 80px;
     }
-
 }
