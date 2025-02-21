@@ -60,6 +60,8 @@
   line-height: 1.43;
   text-align: center;
   color: #858585;
+
+  padding: 0 7px;
 }
 
 @media only screen and (min-width: 768px) {
