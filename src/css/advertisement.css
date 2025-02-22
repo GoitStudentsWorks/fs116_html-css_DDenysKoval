@@ -47,6 +47,7 @@
          }
 
  .sale-container {
+    margin-left: -16px;
     display: inline;
     padding-top: 4px;
     padding-left: 16px;
@@ -54,6 +55,7 @@
          }
 
   .advert-text{
+    padding-left: 16px;
             max-width: 1080px;
             font-size: 76px;
             line-height: 1;
