@@ -32,8 +32,9 @@
 .order-block {
     border-radius: 30px;
     padding: 40px 20px;
-    width: 335px;
-    height: 552px;
+    min-width: 280px;
+    width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     background-color: #fbfbfb;
@@ -103,8 +104,8 @@
 
 .form-btn {
     border-radius: 30px;
-    padding: 16px 129px;
-    width: 295px;
+    min-width: 240px;
+    width: 100%;
     height: 52px;
     background-color: #7a3145;
     border: none;
@@ -198,7 +199,6 @@
     .order-block {
         padding: 72px 100px;
         min-width: 640px;
-        min-height: 632px;
     }
 
     .block-text {
@@ -221,8 +221,7 @@
     }
 
     .form-btn {
-        padding: 16px 191px;
-        width: 440px;
+        min-width: 440px;
     }
 
     .juice-block {
@@ -252,7 +251,7 @@
     }
 
     .yourorder-text {
-        max-width: 742px;
+        width: 742px;
     }
 
     .block-container {
@@ -264,7 +263,6 @@
     .juice-block {
         padding: 52px 48px;
         min-width: 524px;
-        min-height: 592px;
         margin-bottom: 0;
     }
 
@@ -277,7 +275,7 @@
     }
 
     .form-btn {
-        width: 428px;
+        min-width: 428px;
     }
 
     .form-btn:hover {
