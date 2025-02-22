@@ -1,12 +1,24 @@
-import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.mjs'
-
-const swiper = new Swiper('.swiper', {
+new Swiper('.swiper', {
   // Optional parameters
-loop: true,
+  slidesPerView: 1,
+  
+  spaceBetween: 24,
+  
+  autoplay: {
+    delay: 3000,
+  },
 
-  // If we need pagination
-pagination: {
+  pagination: {
     el: '.swiper-pagination',
-},
+  },
+
+  breakpoints: {
+    768: {
+      slidesPerView: 2,
+    },
+    1280: {
+      slidesPerView: 3,
+    }
+  }
 
 });
