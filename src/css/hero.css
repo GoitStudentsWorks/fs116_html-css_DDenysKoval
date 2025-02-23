@@ -98,7 +98,9 @@
     padding-right: 38px;
   }
   .hero-txt {
-    margin: 0;
+    font-weight: 600;
+    font-size: 76px;
+
     max-width: 502px;
     margin-bottom: 128px;
   }
