@@ -29,11 +29,15 @@
  
 }
 
-.icon-burger {
+.burger-btn {
   width: 32px;
   height: 32px;
   display: block;
-  /* Показываем по умолчанию */
+ background-color: transparent;
+ border: none;
+}
+.red-link{
+  display: none;
 }
 
 @media screen and (min-width: 768px) {
@@ -41,13 +45,16 @@
   padding: 0 32px;
 
 }
-.icon-burger{
+.burger-btn{
   width: 40px;
   height: 40px;
 }
 .logo-icon {
   width: 216px;
   height: 20px;
+}
+.red-link{
+  display: none;
 }
 
 
@@ -89,11 +96,14 @@
     font-weight: 500;
     transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
   }
-.icon-burger {
+.burger-btn {
     display: none;
     /* Гарантированно скрываем на десктопе */
   }
-    
+     .red-link {
+       padding-left: 16px;
+       display: block;
+     }
   }
 
  
@@ -123,9 +133,6 @@
     color: white;
   }
 
-  .red-link {
-    padding-left: 16px;
-  }
 
     .header-links:hover{
       background-color: rgba(212, 191, 196, 1);
