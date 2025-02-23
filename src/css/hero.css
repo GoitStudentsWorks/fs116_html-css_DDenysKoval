@@ -82,14 +82,17 @@
 @media screen and (min-width: 1280px) {
   .hero-section {
     display: flex;
+    justify-content: center;
     flex-direction: row;
     padding-right: 0;
+    height: 796px;
   }
   .hero-container {
     margin: 0;
-    /* display: flex;
+
+    display: flex;
     flex-direction: column;
-    justify-content: start; */
+    justify-content: start;
 
     padding-top: 232px;
     padding-right: 38px;
