@@ -3,7 +3,7 @@
   height: 100vh; /* Висота на весь екран */
 }
 
-.hero-content {
+.hero-conteiner {
   width: 50%; /* Ліва частина займає 50% ширини */
   background: #445c39; /* Зелений фон */
   color: white;
@@ -24,6 +24,7 @@
 .hero-title {
   padding: 0 32px 52px 100px;
 }
+
 .hero-image {
   width: 50%; /* Права частина займає 50% ширини */
   background: url(../img/hero-desk@1x.webp) no-repeat center center;
