@@ -151,13 +151,14 @@
   .container-how-it-works-section-text {
     max-width: 640px;
     background-color: #576f35;
+    margin-left: 0;
+    padding: 100px;
   }
   .hiw-bg-img {
     flex-grow: 1;
   }
   .hiw-bg-txt {
     flex-grow: 1;
-    padding: 0 100px;
   }
   .hiw-subtitle-box {
     margin-bottom: 104px;
