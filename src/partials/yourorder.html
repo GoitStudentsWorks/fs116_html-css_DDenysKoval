@@ -1,3 +1,99 @@
 <section class="yourorder-section">
-    YOUR ORDER
+  <div class="container">
+    <h2 class="yourorder-title">
+      Fresh <span class="yourorder-title-part">Harvest</span> Box has got you
+      covered
+    </h2>
+    <p class="yourorder-text">
+      Our boxes are packed with delicious, nutritious vegetables, perfect for
+      anyone looking to eat healthier or support local farmers. Order your box
+      today and start enjoying the best that nature has to offer!
+    </p>
+
+    <div class="block-container">
+      <div class="order-block">
+        <p class="block-text">
+          Ordering <span class="block-text-part-first">from us</span> is quick
+          and easy! Fill out
+          <span class="block-text-part-second">the form</span> below and we will
+          contact you !
+        </p>
+        <form name="order" class="yourorder-form">
+          <input
+            type="text"
+            class="form-input"
+            placeholder="Full Name"
+            pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+            required
+          />
+          <input
+            type="email"
+            class="form-input"
+            placeholder="Email"
+            pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+            required
+          />
+          <textarea
+            name="comment"
+            class="form-comment"
+            placeholder="Comment"
+            required
+          ></textarea>
+          <button class="form-btn" type="submit">Send</button>
+        </form>
+      </div>
+
+      <div class="juice-block">
+        <picture>
+          <source
+            media="(min-width: 1280px)"
+            srcset="
+              /img/yourorder-desk@1x.webp 1x,
+              /img/yourorder-desk@2x.webp 2x
+            "
+          />
+          <source
+            media="(min-width: 768px)"
+            srcset="
+              /img/yourorder-tab@1x.webp 1x,
+              /img/yourorder-tab@2x.webp 2x
+            "
+          />
+          <source
+            media="(max-width: 767px)"
+            srcset="
+              /img/yourorder-mob@1x.webp 1x,
+              /img/yourorder-mob@2x.webp 2x
+            "
+          />
+          <img
+            src="/img/yourorder-desk@1x.webp"
+            alt="juice"
+            class="juice-img"
+          />
+        </picture>
+        <p class="juice-text">Follow us on our social networks:</p>
+        <ul class="juice-list">
+          <a
+            class="juice-social"
+            target="_blank"
+            href="https://www.instagram.com/goitclub/"
+            >instagram</a
+          >
+          <a
+            class="juice-social"
+            target="_blank"
+            href="https://www.facebook.com/goITclub/"
+            >facebook</a
+          >
+          <a
+            class="juice-social"
+            target="_blank"
+            href="https://www.youtube.com/c/GoIT"
+            >youtube</a
+          >
+        </ul>
+      </div>
+    </div>
+  </div>
 </section>
