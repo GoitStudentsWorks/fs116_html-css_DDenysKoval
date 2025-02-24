@@ -1,5 +1,5 @@
 .header{
-    background-color: red;
+    background-color: transparent;
     position: absolute;
     top: 20px;
     width: 100%;
@@ -59,7 +59,10 @@ align-items: center;
 @media screen and (min-width: 768px) {
 .header-section{
   height: 40px;
-  top: 32px;
+  padding: 32px;
+}
+.header{
+    top: 32px;
 }
 .burger-btn{
   width: 40px;
@@ -80,6 +83,9 @@ align-items: center;
   .header-section {
     height: 52px;
     padding: 0 100px;
+  }
+  .header{
+    top: 32px;
   }
 
   .header-logo {
