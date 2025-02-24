@@ -202,7 +202,7 @@
 }
 
 .juice-social:last-child::after {
-    content: '';
+    content: '/' ;
 }
 
 
