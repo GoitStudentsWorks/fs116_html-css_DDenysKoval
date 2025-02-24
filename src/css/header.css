@@ -1,5 +1,9 @@
-header{
+.header{
     background-color: transparent;
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    z-index: 999;
 }
 
 .header-section {
@@ -8,19 +12,8 @@ header{
   align-items: center;
   justify-content: space-between;
   padding: 0 20px;
-  /* На мобильных отступ 20px */
+  /* На мобильных отступ 20px */  
 }
-
-  @media screen and(min-width: 375px){
-    .header-section{
-      position: absolute;
-        top: 20px;
-        width: 100%;
-        z-index: 999;
-        background-color: transparent;
-  }
-}
-
 .header-logo {
   display: flex;
   align-items: center;
@@ -30,10 +23,6 @@ header{
 .header-container {
   display: flex;
   align-items: center;
-}
-
-.logo-icon {
-  
 }
 
 .nav-link {
@@ -114,10 +103,10 @@ header{
     display: none;
     /* Гарантированно скрываем на десктопе */
   }
-     .red-link {
-       padding-left: 16px;
-       display: block;
-     }
+ .red-link {
+   padding-left: 16px;
+   display: block;
+ }
   }
 
  
@@ -148,20 +137,20 @@ header{
   }
 
 
-    .header-links:hover{
-      background-color: rgba(212, 191, 196, 1);
-      color: rgba(122, 49, 69, 1);
-    }
-    .header-links:active{
-        background-color: rgba(251, 251, 251, 1);
-       color:  rgba(122, 49, 69, 1);
-    }
-     .red-link:hover {
-       background-color: rgba(212, 191, 196, 1);
-       color: rgba(122, 49, 69, 1);
-     }
-     .red-link:focus {
-       background-color: white;
-       color: rgba(122, 49, 69, 1);
-     }
+.header-links:hover{
+  background-color: rgba(212, 191, 196, 1);
+  color: rgba(122, 49, 69, 1);
+}
+.header-links:active{
+    background-color: rgba(251, 251, 251, 1);
+   color:  rgba(122, 49, 69, 1);
+}
+ .red-link:hover {
+   background-color: rgba(212, 191, 196, 1);
+   color: rgba(122, 49, 69, 1);
+ }
+ .red-link:focus {
+   background-color: white;
+   color: rgba(122, 49, 69, 1);
+ }
 
