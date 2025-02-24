@@ -13,6 +13,9 @@
   letter-spacing: -0.01em;
   text-transform: uppercase;
   margin-bottom: 20px;
+  animation: appear linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
 }
 
 .reviews-title-span {
@@ -22,16 +25,20 @@
 .reviews-text {
   font-size: 14px;
   line-height: 1.43;
-}
-.swiper-wrapper {
-  display: flex;
-  /* gap: 24px; */
+  animation: appear linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
 }
 
-/* .reviews-list-item-tab,
-.reviews-list-item-desk {
-  display: none;
-} */
+.swiper {
+  animation: appear linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+}
+
+.swiper-wrapper {
+  display: flex;
+}
 
 .swiper-slide {
   border: 1px solid #d4bfc4;
