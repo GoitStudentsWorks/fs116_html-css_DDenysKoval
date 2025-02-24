@@ -1,7 +1,7 @@
 .header{
-    background-color: transparent;
+    background-color: red;
     position: absolute;
-    top: 20px;
+    top: 32px;
     width: 100%;
     z-index: 999;
 }
@@ -11,8 +11,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 20px;
-  /* На мобильных отступ 20px */  
+  padding: 0 20px;  
 }
 .header-logo {
   display: flex;
@@ -29,23 +28,37 @@
   display: none;
  
 }
+.logo-icon{
+  fill: #ffffff;
+}
+.icon-burger{
+  fill: #ffffff;
+}
 
 .burger-btn {
   width: 32px;
   height: 32px;
-  display: block;
- background-color: transparent;
- border: none;
+  display: flex;
+  background-color: transparent;
+  border: none;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
 }
+
+.header-logo-link{
+  display: flex;
+justify-content: center;
+align-items: center;
+}
+
 .red-link{
   display: none;
 }
 
 @media screen and (min-width: 768px) {
 .header-section{
-  top: 32px;
-
-
+  height: 40px;
 }
 .burger-btn{
   width: 40px;
