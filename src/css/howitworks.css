@@ -8,6 +8,9 @@
   background-color: #7a3145;
   margin: 0 auto;
   padding: 40px 20px;
+  animation: appear linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
 }
 .hiw-img {
   width: 100%;
@@ -37,6 +40,9 @@
   text-transform: uppercase;
   color: #fbfbfb;
   margin-bottom: 20px;
+  animation: appear linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
 }
 .hiw-accent {
   color: #d4bfc4;
@@ -47,6 +53,9 @@
   font-size: 14px;
   line-height: 1.42857;
   color: #fbfbfb;
+  animation: appear linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
 }
 .hiw-accent-black {
   font-weight: 700;
@@ -71,6 +80,9 @@
   counter-increment: my-list 1;
   display: flex;
   align-items: center;
+  animation: appear linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
 }
 .hiw-circle {
   width: 52px;
@@ -98,6 +110,17 @@
   max-width: 208px;
   margin-left: 100px;
 }
+
+@media screen and (min-width: 320px) and (max-width: 374px) {
+  .hiw-circle {
+    margin: 16px 16px;
+  }
+
+  .hiw-text {
+    margin-left: 84px;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .container-how-it-works-section-img {
     max-width: 768px;
@@ -155,6 +178,9 @@
     background-color: #576f35;
     margin-left: 0;
     padding: 100px;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
   }
   .hiw-bg-img {
     flex-grow: 1;
@@ -164,5 +190,17 @@
   }
   .hiw-subtitle-box {
     margin-bottom: 104px;
+  }
+
+  .hiw-subtitle {
+    animation: none;
+  }
+
+  .hiw-subtitle-text {
+    animation: none;
+  }
+
+  .hiw-item {
+    animation: none;
   }
 }
