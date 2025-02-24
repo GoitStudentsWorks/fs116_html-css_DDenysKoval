@@ -15,7 +15,7 @@
     pointer-events: none;
     visibility: hidden;
     transition: opacity 250ms ease-in-out, visibility 250ms ease-in-out;
-    z-index: 1;
+    z-index: 999;
 }
 
 .mobile-menu {
@@ -31,7 +31,6 @@
     padding-bottom: 52px;
     z-index: 999;
 }
-
 
 .mobile-close-btn {
     width: 32px;

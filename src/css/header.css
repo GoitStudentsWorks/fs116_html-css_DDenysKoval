@@ -3,7 +3,7 @@
   position: absolute;
   top: 20px;
   width: 100%;
-  z-index: 0;
+  z-index: 1;
 }
 
 .header-section {
@@ -18,22 +18,23 @@
 .header-logo {
   display: flex;
   align-items: center;
-  fill: white;
+  fill: #fbfbfb;
 }
 
 .header-container {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .nav-link {
   display: none;
 }
 .logo-icon{
-  fill: #ffffff;
+  fill: #fbfbfb;
 }
 .icon-burger{
-  fill: #ffffff;
+  fill: #fbfbfb;
 }
 
 .burger-btn {
@@ -77,7 +78,13 @@
   .red-link{
     display: none;
   }
+
+  .icon-burger {
+    width: 40px;
+    height: 40px;
+  }
 }
+
 @media screen and (min-width: 1280px) {
   .header-section {
     height: 52px;
@@ -99,7 +106,7 @@
   .header-container {
     flex-grow: 1;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
   }
 
   .nav-link {
@@ -131,7 +138,7 @@
 
 .red-link {
   background-color: rgba(122, 49, 69, 1);
-  color: white;
+  color: #fbfbfb;
   border: none;
   font-size: 18px;
   line-height: 20px;
@@ -150,24 +157,23 @@
   display: flex;
   align-items: center;
   border-radius: 12px;
-  border: 1px solid white;
-  color: white;
+  border: 1px solid #fbfbfb;
+  color: #fbfbfb;
 }
 
-
-.header-links:hover{
+.header-links:hover,
+.header-links:focus {
   background-color: rgba(212, 191, 196, 1);
   color: rgba(122, 49, 69, 1);
 }
+
 .header-links:active{
   background-color: rgba(251, 251, 251, 1);
   color:  rgba(122, 49, 69, 1);
 }
-.red-link:hover {
-  background-color: rgba(212, 191, 196, 1);
-  color: rgba(122, 49, 69, 1);
-}
+
+.red-link:hover,
 .red-link:focus {
-  background-color: white;
+  background-color: rgba(212, 191, 196, 1);
   color: rgba(122, 49, 69, 1);
 }
