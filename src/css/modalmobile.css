@@ -44,8 +44,9 @@
     transition: transform 500ms ease-in-out;
 }
 
-.mobile-close-btn:hover {
-    transform: rotate(90deg);
+.mobile-close-btn:hover,
+.mobile-close-btn:focus {
+    transform: rotate(180deg);
 }
 
 .mobile-close-icon {
