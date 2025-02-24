@@ -13,9 +13,6 @@
   letter-spacing: -0.01em;
   text-transform: uppercase;
   margin-bottom: 20px;
-  animation: appear linear;
-  animation-timeline: view();
-  animation-range: entry 0% cover 40%;
 }
 
 .reviews-title-span {
@@ -25,15 +22,6 @@
 .reviews-text {
   font-size: 14px;
   line-height: 1.43;
-  animation: appear linear;
-  animation-timeline: view();
-  animation-range: entry 0% cover 40%;
-}
-
-.swiper {
-  animation: appear linear;
-  animation-timeline: view();
-  animation-range: entry 0% cover 40%;
 }
 
 .swiper-wrapper {

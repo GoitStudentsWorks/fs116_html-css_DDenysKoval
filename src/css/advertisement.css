@@ -2,9 +2,6 @@
   background-color: #fbfbfb;
   padding-top: 80px;
   padding-bottom: 80px;
-  animation: appear linear;
-  animation-timeline: view();
-  animation-range: entry 0% cover 40%;
 }
 
 .sale-container {

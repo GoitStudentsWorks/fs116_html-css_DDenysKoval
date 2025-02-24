@@ -8,9 +8,6 @@
   background-color: #7a3145;
   margin: 0 auto;
   padding: 40px 20px;
-  animation: appear linear;
-  animation-timeline: view();
-  animation-range: entry 0% cover 40%;
 }
 .hiw-img {
   width: 100%;
@@ -40,33 +37,32 @@
   text-transform: uppercase;
   color: #fbfbfb;
   margin-bottom: 20px;
-  animation: appear linear;
-  animation-timeline: view();
-  animation-range: entry 0% cover 40%;
 }
+
 .hiw-accent {
   color: #d4bfc4;
 }
+
 .hiw-subtitle-text {
   font-family: 'Inter Tight', sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.42857;
   color: #fbfbfb;
-  animation: appear linear;
-  animation-timeline: view();
-  animation-range: entry 0% cover 40%;
 }
+
 .hiw-accent-black {
   font-weight: 700;
   color: #141414;
 }
+
 .hiw-list {
   display: flex;
   flex-direction: column;
   counter-reset: my-list 0;
   gap: 20px;
 }
+
 .hiw-item {
   font-family: 'Inter Tight', sans-serif;
   font-weight: 500;
@@ -84,6 +80,7 @@
   animation-timeline: view();
   animation-range: entry 0% cover 40%;
 }
+
 .hiw-circle {
   width: 52px;
   height: 52px;
@@ -93,6 +90,7 @@
   position: absolute;
   margin: 16px 24px;
 }
+
 .hiw-circle::before {
   font-weight: 600;
   font-size: 18px;
@@ -106,6 +104,7 @@
   transform: translate(-50%, -50%);
   content: counter(my-list);
 }
+
 .hiw-text {
   max-width: 208px;
   margin-left: 100px;
@@ -178,9 +177,6 @@
     background-color: #576f35;
     margin-left: 0;
     padding: 100px;
-    animation: appear linear;
-    animation-timeline: view();
-    animation-range: entry 0% cover 40%;
   }
   .hiw-bg-img {
     flex-grow: 1;
@@ -197,10 +193,6 @@
   }
 
   .hiw-subtitle-text {
-    animation: none;
-  }
-
-  .hiw-item {
     animation: none;
   }
 }

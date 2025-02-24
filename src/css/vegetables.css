@@ -12,9 +12,6 @@
   color: #fbfbfb;
   max-width: 335px;
   margin-bottom: 20px;
-  animation: appear linear;
-  animation-timeline: view();
-  animation-range: entry 0% cover 40%;
 }
 
 .title-part {
@@ -27,9 +24,6 @@
   color: #fbfbfb;
   margin-bottom: 40px;
   max-width: 335px;
-  animation: appear linear;
-  animation-timeline: view();
-  animation-range: entry 0% cover 40%;
 }
 
 .vegetables-list {

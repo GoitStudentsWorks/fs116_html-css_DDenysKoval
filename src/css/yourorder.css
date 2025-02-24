@@ -30,9 +30,6 @@
     text-transform: uppercase;
     color: #fbfbfb;
     margin-bottom: 20px;
-    animation: appear linear;
-    animation-timeline: view();
-    animation-range: entry 0% cover 40%;
 }
 
 .yourorder-title-part {
@@ -44,9 +41,6 @@
     line-height: 1.43;
     color: #fbfbfb;
     margin-bottom: 40px;
-    animation: appear linear;
-    animation-timeline: view();
-    animation-range: entry 0% cover 40%;
 }
 
 .block-container {
