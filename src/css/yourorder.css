@@ -230,6 +230,7 @@
     .order-block {
         padding: 72px 100px;
         min-width: 640px;
+        margin-bottom: 32px;
     }
 
     .block-text {
