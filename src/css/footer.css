@@ -4,9 +4,11 @@
   display: flex;
   padding: 40px 0;
 }
+
 .footer-content-wrapper {
   color: #fbfbfb;
 }
+
 .footer-pitch-wrapper {
   max-width: 335px;
   margin-bottom: 40px;
@@ -27,11 +29,13 @@
   flex-direction: column;
   margin-bottom: 40px;
 }
+
 .footer-pitch {
   font-size: 14px;
   line-height: 1.43;
   font-weight: 500;
 }
+
 .footer-nav-item {
   text-transform: uppercase;
   font-size: 32px;
@@ -39,6 +43,7 @@
   letter-spacing: -0.01em;
   font-weight: 600;
 }
+
 .footer-address {
   max-width: 215px;
   margin-bottom: 80px;
@@ -47,20 +52,24 @@
   line-height: 1.43;
   font-style: normal;
 }
+
 .footer-post-address {
   max-width: 179px;
   display: block;
 }
+
 .footer-tel {
   margin-bottom: 14px;
   display: block;
 }
+
 .gdpr-wrapper {
   color: #d4bfc4;
   font-size: 14px;
   line-height: 1.43;
   font-weight: 500;
 }
+
 .gdpr-link-list {
   display: flex;
   flex-direction: row;
@@ -87,27 +96,33 @@
   .footer-section {
     padding: 32px 0;
   }
+
   .footer-content-wrapper {
     display: flex;
     justify-content: space-between;
     width: 704px;
   }
+
   .footer-nav-list {
     gap: 24px;
     margin-bottom: 64px;
   }
+
   .footer-logo {
     width: 216px;
     height: 20px;
     margin-bottom: 24px;
   }
+
   .footer-pitch {
     font-size: 16px;
     line-height: 1.25;
   }
+
   .footer-pitch-wrapper {
     width: 265px;
   }
+
   .footer-address {
     max-width: 215px;
     margin-bottom: 100px;
@@ -115,9 +130,11 @@
     font-size: 16px;
     line-height: 1.25;
   }
+
   .footer-tel {
     margin-bottom: 24px;
   }
+
   .gdpr-wrapper {
     color: #d4bfc4;
     font-size: 16px;
@@ -126,6 +143,7 @@
     display: flex;
     justify-content: space-between;
   }
+
   .gdpr-link-list {
     margin-bottom: 0;
   }
@@ -135,27 +153,33 @@
   .footer-section {
     padding: 52px 0;
   }
+
   .footer-content-wrapper {
     display: flex;
     flex-direction: row;
     gap: 250px;
     margin-right: 0;
     margin-bottom: 124px;
+    width: 100%;
   }
+
   .footer-pitch-wrapper {
     margin-right: 0;
     margin-bottom: 0;
   }
+  
   .footer-nav-wrapper {
     display: flex;
     flex-direction: row;
     gap: 121px;
     margin-bottom: 0;
   }
+
   .footer-address {
     max-width: 216px;
     margin-bottom: 0;
   }
+
   .footer-nav-list {
     margin-bottom: 0;
   }
