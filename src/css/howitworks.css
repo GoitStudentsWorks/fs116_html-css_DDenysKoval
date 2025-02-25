@@ -64,10 +64,8 @@
 }
 
 .hiw-item {
-  font-family: 'Inter Tight', sans-serif;
-  font-weight: 500;
   font-size: 14px;
-  line-height: 1.42857;
+  line-height: 1.43;
   color: #858585;
   background-color: #fbfbfb;
   border-radius: 15px;
@@ -79,30 +77,28 @@
   animation: appear linear;
   animation-timeline: view();
   animation-range: entry 0% cover 40%;
+  position: relative;
 }
 
-.hiw-circle {
+.hiw-item::before {
   width: 52px;
   height: 52px;
   border-radius: 50%;
   background-color: #7a3145;
   border: 5px solid#d4bfc4;
   position: absolute;
-  margin: 16px 24px;
-}
-
-.hiw-circle::before {
+  left: 24px;
   font-weight: 600;
   font-size: 18px;
   line-height: 1.11;
   letter-spacing: -0.01em;
   text-transform: uppercase;
   color: #fbfbfb;
-  left: 50%;
-  top: 50%;
   position: absolute;
-  transform: translate(-50%, -50%);
   content: counter(my-list);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .hiw-text {
@@ -111,8 +107,8 @@
 }
 
 @media screen and (min-width: 320px) and (max-width: 374px) {
-  .hiw-circle {
-    margin: 16px 16px;
+  .hiw-item::before {
+    left: 16px;
   }
 
   .hiw-text {
@@ -154,7 +150,7 @@
     height: 76px;
   }
   .hiw-circle {
-    margin: 12px 24px;
+    left: 24px;
   }
   .hiw-text {
     max-width: 325px;

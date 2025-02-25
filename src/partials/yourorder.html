@@ -20,24 +20,26 @@
         </p>
         <form name="order" class="yourorder-form">
           <input
+            aria-label="username"
             autocomplete="on"
             name="username"
             type="text"
             class="form-input"
             placeholder="Full Name"
-            pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
             required
           />
           <input
+            aria-label="email"
             autocomplete="on"
             name="email"
             type="email"
             class="form-input"
             placeholder="Email"
-            pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+            pattern="(?:[^\s@]*)[\w]{1}@{1}(?:[^\s@]+)[\.]{1}(?:[^\s@]{1,255}\w{1})"
             required
           />
           <textarea
+            aria-label="comment"
             name="comment"
             class="form-comment"
             placeholder="Comment"

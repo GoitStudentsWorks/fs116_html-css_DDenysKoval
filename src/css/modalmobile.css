@@ -27,7 +27,6 @@
     right: 0;
     display: flex;
     flex-direction: column;
-    padding-top: 296px; 
     padding-bottom: 52px;
     z-index: 999;
 }
@@ -55,8 +54,7 @@
 
 .mobile-nav-menu {
     display: flex;
-    margin: 0 auto;
-    margin-bottom: auto;
+    margin: auto;
 }
 
 .mobile-nav-list {
@@ -100,6 +98,7 @@
     letter-spacing: -0.01em;
     color: #fbfbfb;
     transition: background-color 250ms ease-in-out;
+    flex-shrink: 0;
 }
 
 .mobile-shop-btn:hover,
