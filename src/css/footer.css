@@ -53,13 +53,18 @@
   font-style: normal;
 }
 
+.footer-address-list {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
 .footer-post-address {
   max-width: 179px;
   display: block;
 }
 
 .footer-tel {
-  margin-bottom: 14px;
   display: block;
 }
 
@@ -131,8 +136,8 @@
     line-height: 1.25;
   }
 
-  .footer-tel {
-    margin-bottom: 24px;
+  .footer-address-list {
+    gap: 24px;
   }
 
   .gdpr-wrapper {
