@@ -11,10 +11,16 @@
   max-width: 335px;
   margin-bottom: 40px;
 }
-.footer-logo {
-  fill: #fbfbfb;
+
+.footer-logo-link {
+  display: flex;
   margin-bottom: 14px;
 }
+
+.footer-logo {
+  fill: #fbfbfb;
+}
+
 .footer-nav-list {
   gap: 14px;
   display: flex;
@@ -30,7 +36,7 @@
   text-transform: uppercase;
   font-size: 32px;
   line-height: 1;
-  letter-spacing: -0.015em;
+  letter-spacing: -0.01em;
   font-weight: 600;
 }
 .footer-address {
@@ -39,6 +45,7 @@
   font-weight: 700;
   font-size: 14px;
   line-height: 1.43;
+  font-style: normal;
 }
 .footer-post-address {
   max-width: 179px;
@@ -58,12 +65,23 @@
   display: flex;
   flex-direction: row;
   margin-bottom: 16px;
+  gap: 21px;
 }
-.gdpr-item:not(:last-child)::after {
-  content: ' /';
-  margin-left: 8px;
-  margin-right: 8px;
+
+.gdpr-item {
+  position: relative;
 }
+
+.gdpr-item::after {
+  content: '/';
+  position: absolute;
+  right: -14px;
+}
+
+.gdpr-item:last-child::after {
+  content: '';
+}
+
 /* media settings min-width:768px */
 @media screen and (min-width: 768px) {
   .footer-section {
@@ -72,7 +90,7 @@
   .footer-content-wrapper {
     display: flex;
     justify-content: space-between;
-    width: 100%;
+    width: 704px;
   }
   .footer-nav-list {
     gap: 24px;
@@ -89,8 +107,6 @@
   }
   .footer-pitch-wrapper {
     width: 265px;
-    margin-right: 212px;
-    margin-bottom: 0;
   }
   .footer-address {
     max-width: 215px;
@@ -142,9 +158,5 @@
   }
   .footer-nav-list {
     margin-bottom: 0;
-  }
-  .gdpr-item:not(:last-child)::after {
-    margin-left: 12px;
-    margin-right: 12px;
   }
 }
