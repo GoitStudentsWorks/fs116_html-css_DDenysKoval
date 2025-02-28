@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/OrganicMarket",
+    "build": "vite build --base=/fs116_html-css_DDenysKoval/",
     "preview": "vite preview"
   },
   "devDependencies": {
